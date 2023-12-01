@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #cde6cc;
+}
+
+h1{
+    display: flex;
+    justify-content: end;
+    color:  #3f7c3d;
+}
+
+h2{
+    color: #3f7c3d;
+}
+
+audio{
+    height: 2vh;
+    width: 15vw;
+}
+
+button {
+    margin-top: 5vh;
+    width: 6%;
+    padding: 1%;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #75b573;
+    
+}
+
+button:hover {
+    background-color: #3f7c3d;
+    color: white;
+    transition: 700ms;
+}
+
+
+.fechar{
+    padding: 5px;
+    cursor: pointer;
+    
+    
+}
+.Palavras {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.texto{
+    margin-left: 1vw;
+}
+
+.texto hr{
+    margin-right: 1vw;
+}
+
+
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #e6f3e5;
+    box-shadow: 0px 20px 20px 0px rgb(128, 127, 127);
+    border-radius: 3%;
+    width: 36vw;
+    height: 33vh;
+    position: fixed;
+    margin-left: 33%;
+    margin-top: 12%;
+
+}
+
+.escondido{
+    display: none;
+}
+
+.prebloco{
+    display: flex;
+    justify-content: center;
+}
+.bloco h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 1vh;
+}
+.bloco{
+    width: 40vw;
+    height: 140vh;
+    margin-bottom: 5vh;
+    background-color:  #e6f3e5;
+    border-radius: 5%;
+  
+}
+.bloco p {
+    margin-top: 1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.portugues button{
+    width: 100%;
+    border-radius: 0px;
+    margin-bottom: 2vh;
+}
+
+.portugues button:hover{
+    background-color: #3f7c3d;
+    color: white;
+}
